@@ -1,5 +1,5 @@
 ﻿html {
-    overflow-y: hidden;
+    height: 100%;
 }
 body {
     background: url('stormtrooper.jpg');
@@ -85,13 +85,13 @@ body {
 }
 .container{
     background: white;
-    position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 800px;
     top: 80%;
-    left: 0;
+    left: 0%;
     text-align: center;
     display: inline-block;
+    border: 3px solid black;
 }
 .header {
     font-size: 60px;
@@ -114,4 +114,9 @@ body {
     position: relative;
     left: 10%;
     top: 2%;
+}
+.separator{
+    height: 1100px;
+    width: 100%;
+   
 }
