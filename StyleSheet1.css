@@ -1,4 +1,7 @@
-﻿body {
+﻿html {
+    overflow-y: hidden;
+}
+body {
     background: url('stormtrooper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,39 +55,63 @@
     right: 0;
 }
 .navagationbar {
-    background: rgb(6,6,6);
-    background: linear-gradient(0deg, rgba(6,6,6,0.6671043417366946) 100%, rgba(255,255,255,1) 100%);
     position: fixed;
     left: 3%;
     top: 400px;
     width: 100px;
+    height: 225px;
     align-content: center;
 }
 
-li {
-    display: block;
-    float: none;
-    height: 60px;
+.navbox{
+    height: 33.33333%;
+    width: 100%;
     text-align: center;
-    color: gainsboro;
-    border: 1px groove black;
-    padding: 0;
     align-content: center;
     position: relative;
-    
-}
+    display: inline-block;
 
-ul {
-    list-style-type: none;
-    display: block;
-    margin: 0;
-    padding: 0;
-    align-content: center;
-    justify-content: center;
 }
-li a {
-    text-decoration: none;
+.navboxcontent {
+    height: 100%;
+    width: 100%;
     font-weight: 500;
-
+    color: white;
+    text-shadow: 2px 1px grey;
+    position: absolute;
+    border: 3px solid black;
+    background: rgb(6,6,6);
+    background: linear-gradient(0deg, rgba(6,6,6,0.6671043417366946) 100%, rgba(255,255,255,1) 100%);
 }
-
+.container{
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 800px;
+    top: 80%;
+    left: 0;
+    text-align: center;
+    display: inline-block;
+}
+.header {
+    font-size: 60px;
+    width: 50%;
+    left: 25%;
+    position: relative;
+}
+.containerpart2 {
+    background: rgb(6,6,6);
+    background: linear-gradient(0deg, rgba(6,6,6,0.6671043417366946) 100%, rgba(255,255,255,1) 100%);
+    height: 600px;
+    width: 60%;
+    position: relative;
+    left: 25%;
+}
+.containerpart3{
+    background: white;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 2%;
+}
